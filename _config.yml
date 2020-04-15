@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Balamurugan Kailasam (@clientbala)
+name: Balamurugan Kailasam
 
 # Short bio or description (displayed in the header)
 description: Azure & M365 Developer
@@ -21,7 +21,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: 
+  github:
   instagram:
   linkedin: https://www.linkedin.com/in/balamurugank/
   pinterest:
