@@ -2,14 +2,15 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Some information about you!
+Azure.Net & O365 Developer
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I am an enthusiastic Azure.Net and O365 consultant with a strong commercial awareness. I have carried out several roles as a Lead Developer, Architect and Technical Consultant, in the Health, Telecom and Banking sectors. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[kshsbala@engineer.com](mailto:kshsbala@engineer.com)
