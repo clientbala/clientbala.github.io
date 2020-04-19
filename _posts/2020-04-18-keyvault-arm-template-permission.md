@@ -1,10 +1,13 @@
 ---
 layout: post
-title: Azure - KeyVault - set permission using ARM template
+title: Azure - KeyVault - set access policies using the ARM template
 published: true
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+
+Azure services are becoming an integral part of the M365 services and most of the companies are looking into Azure and M365 together for the Business solutions. Azure KeyVault is one of the commonly used service / components for any Azure solutions to store the secret data to be consumed by the Azure application.
+
+Here we will quickly see how to setup the access policies in the KeyVault for an Azure service principal, which can read the data from the KeyVault.
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
