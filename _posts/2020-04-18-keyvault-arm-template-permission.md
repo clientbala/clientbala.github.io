@@ -5,13 +5,22 @@ published: true
 ---
 
 
-Azure services are becoming an integral part of the M365 services and most of the companies are looking into Azure and M365 together for the Business solutions. Azure KeyVault is one of the commonly used service / components for any Azure solutions to store the secret data to be consumed by the Azure application.
+Azure services is one of the commonly used service to extend / implement any custom M365 functionality like site provisioning, custom governance application etc. 
 
-Here we will quickly see how to setup the access policies in the KeyVault for an Azure service principal, which can read the data from the KeyVault.
+Here we will quickly see how to setup the access policies in the KeyVault for a multiple service principal registered in the tenant.
 
-### KeyVault Template
+#### KeyVault Template - Multiple ServicePrincipal with fixed permission.
+
+The below template takes an array of serviceprincipal object id's and sets a access policies within the KeyVault.
+
 
 <script src="https://gist.github.com/clientbala/9cba1fc0787c7bb42405992a1bd7782d.js"></script>
 
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+#### KeyVault Template - Multiple ServicePrincipal with variable permission.
+
+The below template takes an array of serviceprincipal object id's along with the permission as a Json and sets the access policies accordingly.
+
+<script src="https://gist.github.com/clientbala/9cba1fc0787c7bb42405992a1bd7782d.js"></script>
+
+
