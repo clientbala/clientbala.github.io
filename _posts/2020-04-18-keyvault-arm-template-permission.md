@@ -11,6 +11,8 @@ Here we will quickly see how to setup the access policies in the KeyVault for an
 
 ### KeyVault Template
 
+<script src="https://gist.github.com/clientbala/9cba1fc0787c7bb42405992a1bd7782d.js"></script>
+
 
 
 
