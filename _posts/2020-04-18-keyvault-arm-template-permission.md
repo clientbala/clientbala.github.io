@@ -14,11 +14,4 @@ Here we will quickly see how to setup the access policies in the KeyVault for an
 <script src="https://gist.github.com/clientbala/9cba1fc0787c7bb42405992a1bd7782d.js"></script>
 
 
-
-
-
-
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
