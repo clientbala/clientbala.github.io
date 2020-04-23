@@ -7,7 +7,7 @@ published: true
 
 Azure services is one of the commonly used service to extend / implement any custom M365 functionality like site provisioning, custom governance application etc. 
 
-Here we will quickly see how to setup the access policies in the KeyVault for a multiple service principal registered in the tenant.
+Here we will quickly see how to setup the access policies in the KeyVault for a multiple service principal registered in the tenant using the ARM template.
 
 #### KeyVault Template - Multiple ServicePrincipal with fixed permission.
 
@@ -21,6 +21,6 @@ The below template takes an array of serviceprincipal object id's and sets a acc
 
 The below template takes an array of serviceprincipal object id's along with the permission as a Json and sets the access policies accordingly.
 
-<script src="https://gist.github.com/clientbala/9cba1fc0787c7bb42405992a1bd7782d.js"></script>
+<script src="https://gist.github.com/clientbala/1b90b10ac15a2777e9910a6acd415d28.js"></script>
 
 
