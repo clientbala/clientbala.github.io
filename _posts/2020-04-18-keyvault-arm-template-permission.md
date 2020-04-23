@@ -27,6 +27,8 @@ The below template takes an array of serviceprincipal object id's along with the
 
 -keyVaultName "kv-cb-set-accesspolicies" -keyVaultLocation "UK South" -servicePrincipalObjects [{"Id":"aaa103ae-9073-4959-97cd-c35b00c6e6e1", "Permissions":{"keys": [],"secrets": ["Get","List"],"certificates":[]}}]
 
-Example - DevOps:
+**Example - DevOps:**
 
-![](https://raw.githubusercontent.com/clientbala/clientbala.github.io/master/images/DevOps%20-%20Arm%20Template%20-%20KV.png)
+<img src="https://raw.githubusercontent.com/clientbala/clientbala.github.io/master/images/DevOps%20-%20Arm%20Template%20-%20KV.png">
+
+
