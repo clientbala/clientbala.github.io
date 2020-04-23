@@ -29,5 +29,5 @@ The below template takes an array of serviceprincipal object id's along with the
 
 Example - DevOps:
 
-![DevOps - Arm Template - KV.png]({{site.baseurl}}/_posts/DevOps - Arm Template - KV.png)
+![DevOps - Arm Template - KV.png]({{site.baseurl}}/master/_posts/DevOps - Arm Template - KV.png)
 
