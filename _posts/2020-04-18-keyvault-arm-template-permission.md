@@ -29,4 +29,4 @@ The below template takes an array of serviceprincipal object id's along with the
 
 Example - DevOps:
 
-![]({{site.baseurl}}/https://raw.githubusercontent.com/clientbala/clientbala.github.io/master/images/DevOps%20-%20Arm%20Template%20-%20KV.png)
+![](https://raw.githubusercontent.com/clientbala/clientbala.github.io/master/images/DevOps%20-%20Arm%20Template%20-%20KV.png)
