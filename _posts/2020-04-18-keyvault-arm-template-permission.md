@@ -23,11 +23,11 @@ The below template takes an array of serviceprincipal object id's along with the
 
 <script src="https://gist.github.com/clientbala/1b90b10ac15a2777e9910a6acd415d28.js"></script>
 
-####Template parameters: The paramters value can be passed as below either using the PowerShell / Cli / Azure Devops tasks.
+#### Template parameters: The paramters value can be passed as below either using the PowerShell / Cli / Azure Devops tasks.
 
 -keyVaultName "kv-cb-set-accesspolicies" -keyVaultLocation "UK South" -servicePrincipalObjects [{"Id":"aaa103ae-9073-4959-97cd-c35b00c6e6e1", "Permissions":{"keys": [],"secrets": ["Get","List"],"certificates":[]}}]
 
 Example - DevOps:
 
-![DevOps - Arm Template - KV.png]({{site.baseurl}}/master/_posts/DevOps - Arm Template - KV.png)
+<img src="{{ site.baseurl }}/_posts/DevOps - Arm Template - KV.png">
 
