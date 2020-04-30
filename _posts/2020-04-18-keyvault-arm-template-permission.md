@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Azure - KeyVault - set multiple access policies using the ARM template
+title: Azure - KeyVault - set multiple access policies using the arm template
 published: true
 ---
 
@@ -29,4 +29,4 @@ The below template takes an array of serviceprincipal object id's along with the
 
 **Example - DevOps:**
 
-<img src="https://raw.githubusercontent.com/clientbala/clientbala.github.io/master/images/posts/DevOps%20-%20Arm%20Template%20-%20KV.png">
+<img src="../images/posts/1-DevOps%20-%20Arm%20Template%20-%20KV.png">
