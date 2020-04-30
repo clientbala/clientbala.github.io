@@ -56,7 +56,9 @@ The above runbook creates the access review as below, so that the reviewer can t
 
 #### Review the access for the O365 group
 
-The reviewer can perform the review by accessing one of the below links. [https://account.activedirectory.windowsazure.com/r#/accessreviews](https://account.activedirectory.windowsazure.com/r#/accessreviews) 
+The reviewer can perform the review by accessing one of the below links. 
+
+[https://account.activedirectory.windowsazure.com/r#/accessreviews](https://account.activedirectory.windowsazure.com/r#/accessreviews) 
 
 [https://myapps.microsoft.com](https://myapps.microsoft.com).
 
