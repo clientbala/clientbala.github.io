@@ -5,7 +5,7 @@ published: true
 ---
 
 
-In the recent years, Azure services has become the common go to platform to develop, host many small to large enterprise applications and also the commonly used service to extend / implement any custom O365 functionality like site provisioning, custom governance application etc. Azure KeyVault will be one of the heavily used one across all the types of Business solution to store the secret / certificate / keys etc.
+In the recent years, Azure services has become the common go to platform to develop, host many small to large enterprise applications and the commonly used service to extend / implement any custom O365 functionality like site provisioning, custom governance application etc. Azure KeyVault will be one of the heavily used one across all the types of Business solution to store the secret / certificate / keys etc.
 
 Recently, I was involved in implementing a various application for a client where we have to keep some of the secret data like connectionstring for Sql, Access tokens, Instrument keys etc in a single KeyVault. Here we will quickly see how to setup the access policies in the KeyVault for a multiple service principal registered in the tenant using the ARM template.
 

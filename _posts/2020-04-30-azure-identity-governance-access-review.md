@@ -2,13 +2,14 @@
 layout: post
 title: >-
   Azure Automation - Identity governance - access review setup for O365 groups
-  using the graph api.
+  using the graph api
 published: true
 ---
 
-Office 365 groups underpins some of the M365 services and it is always recommended to have a governance in place for a beter management. In some of the large enterprise companies, governance of O365 groups has to be in place to make sure that the right users are in the group. This can be acheived either by using a custom application, third party tools or using the Azure Identity governance.
+Office 365 groups underpins some of the M365 services and it is always recommended to have a governance in place for a easy management. In some of the large enterprise companies, governance of O365 groups must be in place to make sure that the right users are in the group. This can be achieved either by using a custom application, third party tools or using the Azure Identity governance.
 
-Here we will see, how we used the Azure Automation to setup an access review of an O365 groups wither when a new groups are created or for an existing group.
+Here we will see, how we used the Azure Automation to setup an access review of an O365 groups wither when a new group is created or for an existing group.
+
 
 #### Azure Application
 Register an application with an access to the graph accessReview api as below.
@@ -44,7 +45,7 @@ b. Gets the O365 group details from the AzureAD.
 
 c. Gets the access token for the graph resource.
 
-d. Get the reviewer details.
+d. Gets the reviewer details.
 
 d. Post a request to https://graph.microsoft.com/beta/accessReviews.
 
