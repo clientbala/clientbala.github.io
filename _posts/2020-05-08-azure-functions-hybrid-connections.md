@@ -1,18 +1,18 @@
 ---
 layout: post
 title: >-
-  Azure - Functions - Connect to OnPremise API - Hybrid Connection Manager
-published: false
-tags: [4, Azure]
+  Azure - Functions - Connect to an OnPremise endpoints - Hybrid Connection Manager
+published: true
+tags: [4, Azure, Azure Functions, Hybrid Connections, Azure Relay]
 ---
 
 I was looking into some of the options available to connect to the onpremise endpoints from Azure for an O365 solution. Azure Hybrid Connection is one them and here we will see how to set it up to connect to an sample api hosted locally (OnPremise) from the Azure function.
 
 ### Azure Hybrid Connection
-This uses the Azure Service Bus Relay capability to establish a secure connection between the systems. One of the key benefit of using this is easy to setup and it uses and the connections are all outbound over standard ports.
+This uses the Azure Service Bus Relay capability to establish a secure connection between the systems. One of the key benefit of using this is easy to setup and it uses and the connections are all outbound over standard ports. More details of the Hybrid Connection can be found <a href='https://docs.microsoft.com/en-us/azure/app-service/app-service-hybrid-connections'>here</a>.
 
 ### Setup
-The detailed setup guide is available in the microsoft site and here we will see some of the key steps to setup the connection between an OnPremise system hosting an api.
+Here we will see some of the key steps to setup the connection between an OnPremise system hosting an api.
 
 #### OnPremise API Setup:
 For this scenario, setup the below end points with the self-signed certificates on my local machine as detailed below.
@@ -78,6 +78,6 @@ d. Check the connection status in the Azure function
 
 <img src="../images/posts/4/4-azure-connection-connected.png" width="75%" height="75%">
 
-#### Run the function:
+### Run the function:
 
 <img src="../images/posts/4/4-Azure-functions-test-e2e.png" width="75%" height="75%">
