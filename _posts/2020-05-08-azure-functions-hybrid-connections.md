@@ -72,11 +72,11 @@ b. Add the hybrid connection in the Azure Functions
 
 c. Configure the connection locally on the Hybrid Connection Manager
 
-<img src="../images/posts/4/4-azure-onpremise-weatherforecast.png" width="75%" height="75%">
+<img src="../images/posts/4/4-Azure-onpremise-weatherforecast.png" width="75%" height="75%">
 
 d. Check the connection status in the Azure function
 
-<img src="../images/posts/4/4-azure-connection-connected.png" width="75%" height="75%">
+<img src="../images/posts/4/4-Azure-Connection-Connected.png" width="75%" height="75%">
 
 ### Run the function:
 
