@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Azure - KeyVault - set multiple access policies using the arm template
-published: false
+published: true
 ---
 
 
