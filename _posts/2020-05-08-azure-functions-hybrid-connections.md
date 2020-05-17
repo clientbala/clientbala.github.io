@@ -81,3 +81,7 @@ d. Check the connection status in the Azure function
 ### Run the function:
 
 <img src="../images/posts/4/4-Azure-functions-test-e2e.png" width="75%" height="75%">
+
+Important Notes:
+
+1. TCP Port 9350 - 9354 is open to connect to the ServiceBus from the client.
