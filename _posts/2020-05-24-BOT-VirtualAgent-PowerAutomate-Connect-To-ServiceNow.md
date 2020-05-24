@@ -1,7 +1,7 @@
 ---
 layout: post
 title: >-
-  O365 - Create a ServiceNow Bot using Power Virtual Agents and PowerAutomate.
+  O365 - Create a ServiceNow Bot using Power Virtual Agents and PowerAutomate
 published: true
 tags: [5, BOT, PowerAutomate, VirtualAgent, ServiceNow]
 ---
