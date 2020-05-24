@@ -52,7 +52,7 @@ Configure the flow to get the details from the ServiceNow to get the incident de
 
 #### Return the Incident details
 
-Return the Incident details (ex: Incident State) from the ServiceNow as an output to PVA.
+Configure the PVA return values to send the Incident state as a variable.
 
 <img src="../images/posts/5/Bot_return_Incident_details.png" width="70%" height="70%">
 
