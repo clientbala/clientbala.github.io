@@ -80,10 +80,6 @@ Create an App in the Teams App Studio as a Bot.
 
 <img src="../images/posts/5/Create_Bot_AppStudio.png" width="60%" height="60%">
 
-Create an App in the Teams App Studio as a Bot.
-
-<img src="../images/posts/5/Create_Bot_AppStudio.png" width="50%" height="50%">
-
 Setup as a Bot with the AppId 
 
 <img src="../images/posts/5/Bot_Teams_Register.png" width="50%" height="50%">
