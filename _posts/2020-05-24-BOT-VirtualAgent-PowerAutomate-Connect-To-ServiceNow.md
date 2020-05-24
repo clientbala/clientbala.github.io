@@ -6,7 +6,7 @@ published: true
 tags: [5, BOT, PowerAutomate, VirtualAgent, ServiceNow]
 ---
 
-In the last 3 to 5 years, there has been more emphasis on Collaboration, Lean, Agile, SelfService work model everywhere so that the people can act quickly and respond promptly. Office 365 platform allows any enterprise to adapt to the change quickly by providing rich features/tools (Teams, Bots, PowerAutomate, etc) with an ability to build custom features easily. Recently I was looking into a different mechanism to bring the ServiceNow data into the Teams to the end-users who can query the ServiceNow details easily within the Teams.
+In the last 3 to 5 years, there has been more emphasis on Collaboration, Lean, Agile, SelfService work model everywhere so that the people can act quickly and respond promptly for any queries. Office 365 platform allows any enterprise to adapt to the change quickly by providing rich features/tools (Teams, Bots, PowerAutomate, etc) with an ability to build custom features easily. Recently I was looking into a different mechanism to bring the ServiceNow data into the Teams to the end-users who can query the ServiceNow details easily within the Teams.
 
 Here we will see how we can quickly create a ServiceNow Bot using the Power Virtual Agent to query the ServiceNow incidents within the Teams by an user.
 
