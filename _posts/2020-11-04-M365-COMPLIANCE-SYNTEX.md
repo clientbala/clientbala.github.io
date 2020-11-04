@@ -28,15 +28,15 @@ Go to the Content Centre site
 
 Once the content centre is ready, Create a model 'Expenses' to train some sample content for classification, extraction and apply it to a document library.
 
-<img src="../images/posts/6/create-model-1.png" width="80%" height="80%">
+<img src="../images/posts/6/Create-Model-1.png" width="80%" height="80%">
 
 The above creates the model with a new Intelligent Document content type.
 
-<img src="../images/posts/6/model-contenttype.png" width="80%" height="80%">
+<img src="../images/posts/6/Model-ContentType.png" width="80%" height="80%">
 
 Train, Classify, Extract Metadata and Publish the model to a library.
 
-<img src="../images/posts/6/create-model.png" width="80%" height="80%">
+<img src="../images/posts/6/Create-Model.png" width="80%" height="80%">
 
 #### Add example files
 
