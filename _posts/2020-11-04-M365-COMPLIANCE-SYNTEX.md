@@ -76,7 +76,7 @@ Now we have the model created and applied to a document library ready to classif
 
 ### Create a powerapp to scan and upload the document
 
-I have created a powerapp / powerautomate (based on <a target='_blank' href='https://www.youtube.com/watch?v=3QaiM8SeWfM'>Shane Young - training video</a>) to scan and upload the document to the above library.
+Create a PowerApp / PowerAutomate (based on <a target='_blank' href='https://www.youtube.com/watch?v=3QaiM8SeWfM'>Shane Young - training video</a>) to scan and upload the document to the above library.
 
 <img src="../images/posts/6/powerapp-scan.png" width="70%" height="70%">
 
