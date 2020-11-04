@@ -42,19 +42,19 @@ Train, Classify, Extract Metadata and Publish the model to a library.
 
 Upload a list of sample documents to the model.
 
-<img src="../images/posts/6/sample-model-files.png" width="40%" height="40%">
+<img src="../images/posts/6/Sample-Model-Files.png" width="40%" height="40%">
 
 #### Classify files and run training
 
 Classify the uploaded sample files for the type 'Expenses'.
 
-<img src="../images/posts/6/train_classify_files.png" width="70%" height="70%">
+<img src="../images/posts/6/Train_Classify_Files.png" width="70%" height="70%">
 
 #### Create and Train Extractors
 
 Create an Extractor 'Total' to get the Total amount from the expenses document and Train it with the sample uploaded documents.
 
-<img src="../images/posts/6/create-extractor-train.png" width="70%" height="70%">
+<img src="../images/posts/6/Create-Extractor-Train.png" width="70%" height="70%">
 
 The above step will extract the data and store it as a metadata in the document library.
 
@@ -62,15 +62,15 @@ The above step will extract the data and store it as a metadata in the document 
 
 Apply the model to a document library by selecting the site and the document library.
 
-<img src="../images/posts/6/apply-model-library.png" width="70%" height="70%">
+<img src="../images/posts/6/Apply-Model-Library.png" width="70%" height="70%">
 
 The applied model can be removed from the model dashboard page.
 
-<img src="../images/posts/6/model-libraries.png" width="70%" height="70%">
+<img src="../images/posts/6/Model-Libraries.png" width="70%" height="70%">
 
 Once the model is applied to the document library, it publishes the 'Expenses' model content type with the additional metadata like 'Classification Date', 'Confidential Score' and along with the 'Total' extracted metadata specified in the model.
 
-<img src="../images/posts/6/library-contenttypes.png" width="70%" height="70%">
+<img src="../images/posts/6/Library-ContentTypes.png" width="70%" height="70%">
 
 Now we have the model created and applied to a document library ready to classify and extract the data.
 
