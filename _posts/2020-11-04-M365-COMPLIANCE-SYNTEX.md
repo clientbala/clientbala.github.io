@@ -48,7 +48,7 @@ Upload a list of sample documents to the model.
 
 Classify the uploaded sample files for the type 'Expenses'.
 
-<img src="../images/posts/6/Train_Classify_Files.png" width="70%" height="70%">
+<img src="../images/posts/6/Train_Classify_files.png" width="70%" height="70%">
 
 #### Create and Train Extractors
 
