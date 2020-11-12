@@ -3,6 +3,7 @@ layout: post
 title: >-
   M365 - SharePoint Syntex - Classify, Extract Metadata, Apply Contentype and Retain documents automatically.
 published: true
+featured-image: ../images/posts/6/Create-Model.png
 tags: [6, SharePoint, PowerAutomate, Compliance, Syntex]
 ---
 
