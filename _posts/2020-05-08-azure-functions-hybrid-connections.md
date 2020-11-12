@@ -1,7 +1,7 @@
 ---
 layout: post
 title: >-
-  Azure - Functions - Connect to an OnPremise endpoints - Hybrid Connection Manager
+  Azure - Functions - Connect to On-Premise endpoints - Hybrid Connection Manager
 published: true
 tags: [4, Azure, Azure Functions, Hybrid Connections, Azure Relay]
 ---
