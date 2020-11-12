@@ -1,7 +1,7 @@
 ---
 layout: post
 title: >-
-  M365 - SharePoint Syntex - Classify, Extract Metadata, Apply Contentype and Retain documents automatically uploaded using PowerApp and PowerAutomate.
+  M365 - SharePoint Syntex - Classify, Extract Metadata, Apply Contentype and Retain documents automatically.
 published: true
 tags: [6, SharePoint, PowerAutomate, Compliance, Syntex]
 ---
@@ -10,7 +10,7 @@ After the recent announcement about the SharePoint Syntex, I started looking int
 
 ### SharePoint Syntex Setup
 
-Purchase the SharePoint Syntex licence for the tenant.
+Get the SharePoint Syntex licence for the tenant.
 
 <img src="../images/posts/6/SharePoint-Syntex-Product.png" width="50%" height="50%">
 
