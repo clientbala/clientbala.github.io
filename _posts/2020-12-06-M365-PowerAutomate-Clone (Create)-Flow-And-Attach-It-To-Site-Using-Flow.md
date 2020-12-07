@@ -2,42 +2,42 @@
 layout: post
 title: >-
   M365 - PowerAutomate - Clone (Create) Flow and Attach it to a Site using a Flow.
-published: false
+published: true
 featured-image: ../images/posts/6/Create-Model.png
 tags: [7, M365, PowerAutomate, CreateFlow]
 ---
 
-Here we will see how to use the PowerAutomate to create a new Flow from a template Flow and attach it to a document library using the PowerAutomate. This allows us to maintain the Flow functionality in one place with an ability to create a Flow and attach it to a list or document library for a site. In this example, we will see how a "Request manager approval for a selected file" flow can be attached a site.
+Here we will see how to use the PowerAutomate to create a new Flow from a template Flow and attach it to a document library with an ability to maintain the Flow functionality in one place. In this example, we will see how a "Request manager approval for a selected file" template flow can be attached a site and a same mechanism can be applied to any custom Flow.
 
 ### SharePoint Template Site and Document Library
 
-Provision a new site and a document library for the template "Request manager approval for a selected file" flow.
+Provision a new site and a document library for the template "Request manager approval for a selected file" Flow.
 
 <img src="../images/posts/7/7_SharePoint_Template_Site.png" width="100%" height="100%">
 
 ### Create "Request manager approval for a selected file" Flow 
 
-Provision "Request manager approval for a selected file" Flow and attach it to the Document library. This Flow will be used to create a new instance and attached it to a Site.
+Provision "Request manager approval for a selected file" Flow and attach it to the Document library. This teamplate Flow will be used to create a new instance and attached it to a Site document library.
 
 <img src="../images/posts/7/7_Request_Manager_Approval.png" width="70%" height="70%">
 
-#### Flow Attached to the Document lirary
+#### Create the template Flow and attach to the Document lirary
 
 The flow can be triggered by an user for a selected document.
 
 <img src="../images/posts/7/7_Attach_Document.png" width="70%" height="70%">
 
-So the Flow is ready now and for this scenario, we will use the above Flow to create a new instance based on this and attach it to a new Site Document library using a Flow.
+In this scenario, we will use the above Flow to create a new instance based on this template Flow and attach it to a new Site Document library using an another Flow.
 
 #### ApprovedSites List
 
-Create a new SharePoint List "ApprovedSites" containing a list of sites which we need to create a new Flow based on the above and attach it to the Document library.
+Create a new SharePoint List "ApprovedSites" containing a list of sites which we need to create a new Flow based on the template Flow and attach it to the Document library.
 
 <img src="../images/posts/7/7_ApprovedSites.png" width="100%" height="100%">
 
-### Create a Flow based on the existing Flow
+### Create a Flow to clone the template Flow and attach it to the Document library
 
-In this step, we will attach the Flow for the ApprovedSites as below.
+In this step, we will create a new Flow to clone the template flow to a list to clone the template Flow and attach it to the ApprovedSite Document library as below.
 
 #### Set the Trigger
 
@@ -45,29 +45,27 @@ Attach this flow to the "ApprovedSites".
 
 <img src="../images/posts/7/7_Trigger_ApprovedSites.png" width="100%" height="100%">
 
-This Flow will be triggered everytime a new Approved Site is created.
+This Flow will be triggered everytime a new Approved Site is created in the "ApprovedSites" list.
 
 #### Initialise the variables
 
-Initialise some variables for FlowDefinition, Connections etc.
+Initialise some variables to hold the template FlowDefinition, Connections values.
 
 <img src="../images/posts/7/7_Vars_AttachFlow.png" width="100%" height="100%">
 
-#### Get the "Request manager approval for a selected file" Flow
+#### Get the "Request manager approval for a selected file" FlowDefinition
 
 <img src="../images/posts/7/7_Get_Flow.png" width="100%" height="100%">
 
-In this step, we will get the Flow Details like "Flow Definition", "Connections" etc. These details will be used to create a new Flow instance.
-
 #### Get the FlowDefinition, ConnectionReferences details from the Templated Flow
 
-Set the variables FlowDefinition, Connections with the details from the "GetFlow" action followed by parsing the connections as a JSON and construction the Connections array. These will be used later to create the flow.
+Set the FlowDefinition, Connections variables with the details from the "GetFlow" action followed by parsing the connections as a JSON and compose the Connections array. These values will be used to create the new flow instance.
 
 <img src="../images/posts/7/7_Vars_Assign_FlowDefinitions_ConnectionRefs.png" width="100%" height="100%">
 
 #### Replace the Trigger Url and the Document Library ID in the templated FlowDefinition
 
-The templated Flow contains the Url of the template Site and the Document library. This will be replaced with the ApprovedSite Url and Document Library.
+The templated Flow contains the Url of the template Site and the Document library and replace it with the ApprovedSite Url and Document Library.
 
 <img src="../images/posts/7/7_Replace_FlowDefinition_With_ApprovedSite.png" width="100%" height="100%">
 
@@ -97,4 +95,4 @@ Once site is registed in the ApprovedSite, "Create Flow - For Approved Sites" Fl
 
 <img src="../images/posts/7/7_Flow_Perpective_Attached.png" width="100%" height="100%">
 
-Note: The above creates a Flow for a Document Library using the existing connection references and more details on the limits of the PowerAutomate (ex: Number of Flows owned by a single user etc.) and the work around can be found <a href='https://docs.microsoft.com/en-us/power-automate/limits-and-config' target='_blank'>here</a>.
+Note: The above creates a Flow for a Document Library using the existing connection references and there are certain limits on the PowerAutomate on the number of Flows can be owned by an User or Account. More details on the limit and the work around can be found <a href='https://docs.microsoft.com/en-us/power-automate/limits-and-config' target='_blank'>here</a>.
