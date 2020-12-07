@@ -79,9 +79,9 @@ The above sets the FlowDefinition and Connection properties with the updated Flo
 
 Note: ConnectionReferencesName is set as - variables('ConnectionArray')?[<<index>>]['connectionName'] and ConnectionReferencesId is set as - variables('ConnectionArray')?[<<index>>]['id'].
 
-### ApprovedSite Flow
+### ApprovedSites Flow
 
-Once site is registed in the ApprovedSite, "Create Flow - For Approved Sites" Flow gets executed and creates a Flow on the ApprovedSite based on the templated Flow.
+Once site is registed in the ApprovedSites list, "Create Flow - For Approved Sites" Flow gets executed and creates a Flow on the ApprovedSite based on the templated Flow.
 
 #### Regiser a Site in the "ApprovedSites" List
 
