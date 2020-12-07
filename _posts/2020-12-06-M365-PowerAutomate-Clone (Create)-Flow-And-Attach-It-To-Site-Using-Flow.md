@@ -3,7 +3,7 @@ layout: post
 title: >-
   M365 - PowerAutomate - Clone (Create) Flow and Attach it to a Site using a Flow.
 published: true
-featured-image: ../images/posts/6/Create-Model.png
+featured-image: ../images/posts/7/7_Create_Flow_Execution.png
 tags: [7, M365, PowerAutomate, CreateFlow]
 ---
 
