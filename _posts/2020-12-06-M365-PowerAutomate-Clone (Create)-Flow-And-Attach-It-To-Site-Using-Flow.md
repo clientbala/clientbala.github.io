@@ -95,4 +95,4 @@ Once site is registed in the ApprovedSite, "Create Flow - For Approved Sites" Fl
 
 <img src="../images/posts/7/7_Flow_Perpective_Attached.png" width="100%" height="100%">
 
-Note: The above creates a Flow for a Document Library using the existing connection references and there are certain limits on the PowerAutomate on the number of Flows can be owned by an User or Account. More details on the limit and the work around can be found <a href='https://docs.microsoft.com/en-us/power-automate/limits-and-config' target='_blank'>here</a>.
+Note: The above creates a Flow for a Document Library using the existing connection references and there are certain limits for the PowerAutomate on the number of Flows can be owned by an User or Account etc. More details on the limit and the work around can be found <a href='https://docs.microsoft.com/en-us/power-automate/limits-and-config' target='_blank'>here</a>.
